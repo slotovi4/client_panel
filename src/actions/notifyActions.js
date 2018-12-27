@@ -1,6 +1,6 @@
 import { NOTIFY_USER } from "./types";
 
-export const notityUser = (message, messageType) => {
+export const notifyUser = (message, messageType) => {
   return {
     type: NOTIFY_USER,
     message,
